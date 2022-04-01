@@ -755,7 +755,7 @@ textarea:focus::placeholder { opacity: 0; -webkit-transition: opacity 0.8s ease;
   48% { -webkit-transform: rotate(225deg); transform: rotate(225deg);
     margin-left: -52%; }
   100% { -webkit-transform: rotate(360deg); transform: rotate(360deg);
-    margin-left: -100px;
+   
     left: 20px; } }
 
 @keyframes rotate-back { 0% { -webkit-transform: translate(-100%, 0); transform: translate(-100%, 0);
@@ -765,7 +765,7 @@ textarea:focus::placeholder { opacity: 0; -webkit-transition: opacity 0.8s ease;
   48% { -webkit-transform: rotate(225deg); transform: rotate(225deg);
     margin-left: -52%; }
   100% { -webkit-transform: rotate(360deg); transform: rotate(360deg);
-    margin-left: -100px;
+    
     left: 20px; } }
 
 .big-text { overflow-x: hidden; padding: 50px 0; }
